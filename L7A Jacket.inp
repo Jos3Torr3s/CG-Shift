@@ -1,0 +1,48 @@
+
+# Units: m, KN
+
+# Name of the main group and X, Y, and Z groups as defined in STAAD:
+Name_0 = '_JACKET'
+Name_X = '_CG_GROUP_X'
+Name_Y = '_CG_GROUP_Y'
+Name_Z = '_CG_GROUP_Z'
+
+# STAAD main weight:
+W0 = 5310.8647
+
+# Target weight:
+W = 7347.69
+
+# STAAD group weights:
+W1 = 857.6179
+W2 = 145.2059
+W3 = 976.7826
+
+# STAAD main CG:
+X0 = -1.8452
+Y0 = -15.0841
+Z0 = -0.0345
+
+# STAAD Group CGs:
+# X-group:
+X1 = 5.0000
+Y1 = -15.5172
+Z1 = -0.0146
+
+# Y-group:
+X2 = -1.9149
+Y2 = -20.1679
+Z2 = -0.7421
+
+# Z-group:
+X3 = -1.9055
+Y3 = -15.7323
+Z3 = 5.7770
+
+# Target CGs:
+X = 1.774
+Y = -15.398
+Z = 0.002
+
+# Outputfile [True/False]
+Outputfile = False
