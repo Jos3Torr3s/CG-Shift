@@ -73,10 +73,10 @@ for file in files:
     print('------------------------------------')
     print('Group weight factors:')
     print()
-    print('SELFWEIGHT Y -{:.3f}'.format(round(fW,3)),Name_0)
-    print('SELFWEIGHT Y -{:.3f}'.format(round(f1,3)),Name_X)
-    print('SELFWEIGHT Y -{:.3f}'.format(round(f2,3)),Name_Y)
-    print('SELFWEIGHT Y -{:.3f}'.format(round(f3,3)),Name_Z)
+    print('SELFWEIGHT Y {:.3f}'.format(round(-fW,3)),Name_0)
+    print('SELFWEIGHT Y {:.3f}'.format(round(-f1,3)),Name_X)
+    print('SELFWEIGHT Y {:.3f}'.format(round(-f2,3)),Name_Y)
+    print('SELFWEIGHT Y {:.3f}'.format(round(-f3,3)),Name_Z)
     print()
 
     # Print into output file
@@ -88,10 +88,10 @@ for file in files:
             output.write('------------------------------------'+'\n')
             output.write('Group weight factors:'+'\n')
             output.write('\n')
-            output.write('SELFWEIGHT Y -{:.3f} '.format(fW)+Name_0+'\n')
-            output.write('SELFWEIGHT Y -{:.3f} '.format(f1)+Name_X+'\n')
-            output.write('SELFWEIGHT Y -{:.3f} '.format(f2)+Name_Y+'\n')
-            output.write('SELFWEIGHT Y -{:.3f} '.format(f3)+Name_Z+'\n')
+            output.write('SELFWEIGHT Y {:.3f} '.format(-fW)+Name_0+'\n')
+            output.write('SELFWEIGHT Y {:.3f} '.format(-f1)+Name_X+'\n')
+            output.write('SELFWEIGHT Y {:.3f} '.format(-f2)+Name_Y+'\n')
+            output.write('SELFWEIGHT Y {:.3f} '.format(-f3)+Name_Z+'\n')
 
     # Print plots
     #plt.plot(iterations, W1_points)
