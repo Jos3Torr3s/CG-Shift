@@ -1,4 +1,3 @@
-# This is just a test
 #
 import glob
 import os
